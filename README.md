@@ -22,6 +22,12 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 Arquitetura em Camadas. Esta escolha foi feita para organizar o código de forma lógica, separando as diferentes responsabilidades do sistema, o que é essencial 
 para a manutenção e crescimento do projeto.
 
+## Justificativa da Escolha
+A arquitetura em camadas foi selecionada por oferecer os seguintes benefícios para o nosso sistema:
+Separação Clara de Responsabilidades: Cada camada tem um foco bem definido, evitando que o código de interface se misture com as regras de negócio ou o acesso a dados.
+Manutenção Simplificada: Alterações em uma camada, como a mudança da interface do usuário, têm um impacto mínimo nas outras.
+Facilidade na Colaboração: A estrutura facilita a divisão de tarefas entre os membros da equipe, onde cada um pode focar em uma camada diferente do sistema.
+
 ## Definição das Camadas
 
 O sistema está organizado nas seguintes camadas lógicas:
