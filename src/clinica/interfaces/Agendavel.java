@@ -1,4 +1,4 @@
-package interfaces;
+package clinica.interfaces;
 
 import java.util.Date;
 

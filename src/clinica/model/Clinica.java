@@ -1,6 +1,6 @@
-package model;
+package clinica.model;
 
-import exceptions.AgendamentoException;
+import clinica.exceptions.AgendamentoException;
 import java.util.ArrayList;
 import java.util.List;
 

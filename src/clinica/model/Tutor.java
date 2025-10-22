@@ -1,4 +1,4 @@
-package model;
+package clinica.model;
 
 public class Tutor {
     private String nome;
@@ -13,3 +13,4 @@ public class Tutor {
     public String getNome() {
         return nome;
     }
+}

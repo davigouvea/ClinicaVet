@@ -1,4 +1,4 @@
-package exceptions;
+package clinica.exceptions;
 
 import java.util.Date;
 

@@ -1,6 +1,6 @@
-package model;
+package clinica.model;
 
-import interfaces.Agendavel;
+import clinica.interfaces.Agendavel;
 import java.util.Date;
 
 public class Consulta implements Agendavel {
@@ -14,7 +14,7 @@ public class Consulta implements Agendavel {
     }
 
     @Override
-    public void agedar(Date data) {
+    public void agendar(Date data) {
         this.data = data;
         System.out.println("Consulta agendada para o pet " + animal.getNome() + " em " + data);
     }

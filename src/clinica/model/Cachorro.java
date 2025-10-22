@@ -1,4 +1,4 @@
-package model;
+package clinica.model;
 
 public class Cachorro extends Animal {
     private String raca;

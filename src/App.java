@@ -1,10 +1,8 @@
-package br.com.clinica;
-
-import exceptions.AgendamentoException;
-import model;
+import clinica.exceptions.AgendamentoException;
+import clinica.model.*;
 import java.util.Date;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         Clinica clinica = new Clinica();
         Tutor tutorJoao = new Tutor("João Silva", "111.222.333-44", "9999-8888");

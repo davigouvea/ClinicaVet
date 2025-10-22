@@ -1,4 +1,4 @@
-package model;
+package clinica.model;
 
 public class Gato extends Animal {
     private String pelagem;
